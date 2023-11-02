@@ -1,5 +1,5 @@
 :root {
-  --primary: #bb8147;
+  --primary: #88531f;
 }
 
 body {
@@ -19,14 +19,26 @@ body {
 }
 
 img {
-  max-width: 50%;
+  max-width: 30%;
 }
 
 p {
   font-weight: 100;
   line-height: 1;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
+
+footer {
+  text-align: center;
+  background-color: var(--primary);
+  color: #000; /* Ganti warna teks menjadi hitam */
+  padding: 10px;
+  font-size: 1.3rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
 
 /* Media Queries */
 /* Laptop */
